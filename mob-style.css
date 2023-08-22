@@ -4,47 +4,57 @@
 
 
     body {
-        padding: 10px 10px 10px 10px;
+        padding: 10px;
     }
 
 
     .main-bx {
         height: 92vh;
         display: flex;
+        padding: 12px;
         justify-content: center;
         flex-direction: column;
 
     }
 
     .header {
-        margin-bottom: 130px;
+        margin-bottom: 50px;
+    }
+    .header2{
+        display: flex;
+    }
+    .header1{
+        display: none;
     }
 
     .header h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .header ion-icon {
-        font-size: 67px;
+        font-size: 45px;
     }
 
     .input {
         font-size: 70px;
         border-radius: 19px 0px 0px 19px;
+         
         
     }
 
     .temp h3 {
+        
         border-radius: 0px 19px 19px 0px;}
 
     #clear{
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
 
 
     button {
-        width: 40%;
-        font-size: 40px;
+        width: 50%;
+        height: 50px;
+        font-size: 25px;
     }
 
 

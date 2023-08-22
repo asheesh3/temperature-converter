@@ -11,7 +11,7 @@ body {
 
 
 .main-bx {
-    height: 85vh;
+    height: 88vh;
     border: 20px solid rgb(219, 216, 216);
     border-radius: 20px;
     padding: 45px;
@@ -24,6 +24,12 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+}
+.header1{
+    display: flex;
+}
+.header2{
+    display: none;
 }
 
 .header h1 {
